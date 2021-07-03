@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1091079909047",
+    "project_id": "fujiaristanti-firebase",
+    "storage_bucket": "fujiaristanti-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091079909047:android:e61ede57b50f48897fa732",
+        "android_client_info": {
+          "package_name": "com.fujiaristanti.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091079909047-4dfgrvaff8bfuc45ic500flao34mql77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdw1Q7kkQ4235FOpgC4wy3pYazwR5F_5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091079909047-4dfgrvaff8bfuc45ic500flao34mql77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
