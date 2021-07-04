@@ -1,4 +1,5 @@
 package com.fujiaristanti.firebase;
+import androidx.annotation.NonNull;
 import  androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -80,9 +81,9 @@ public class MainActivity extends AppCompatActivity {
                                     // the auth state listener will be notified and logic to handle the
                                     // signed in user can be handled in the listener.
 //                                    progressBar.setVisibility(View.GONE);
-                                    if (!task.isSuccessful()) {
-                                        Toast.makeText(zMainActivity.this, "otentikasi gagal", getString(R.string.auth_failed), Toast.LENGTH_LONG).show();
-                                    } else {
+                                    if (!task.isSuccessful())
+                                        Toast.makeText(MainActivity.this, "otentikasi gagal", getString(R.string.auth_failed), Toast.LENGTH_LONG).show();
+                                    else {
                                         Intent intent = new Intent(MainActivity.this, HomeActivity.class);
                                         startActivity(intent);
                                         finish();
